@@ -14,5 +14,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<set-payload value='#["Hello!"]' doc:name="Set Payload" doc:id="c3c28fc0-0e1b-4c22-86e3-64629e825560" />
 		<logger level="INFO" doc:name="Logger" doc:id="37a0acb4-d01b-4a33-98c0-95f3a2ab03ee" message='#["asdf"]'/>
 		<logger level="INFO" doc:name="Logger" doc:id="c865f4b8-a587-49b1-a5d3-f1507624b3ec" message='#["Third logger"]'/>
+		<set-payload value='#["Latest payload"]' doc:name="Set Payload" doc:id="2845ae83-234d-4ca6-84bb-89a04d58fee7" />
+		<set-payload value='#["hi"]' doc:name="Set Payload" doc:id="ccce1888-d1b0-4ee8-8dd7-49bb8b75d270" />
 	</flow>
 </mule>
