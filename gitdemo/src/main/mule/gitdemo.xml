@@ -13,5 +13,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<logger level="INFO" doc:name="Logger" doc:id="a6a3cb20-e333-4243-83d1-2227151faeec" message='#["Added a logger"]'/>
 		<set-payload value='#["Hello!"]' doc:name="Set Payload" doc:id="c3c28fc0-0e1b-4c22-86e3-64629e825560" />
 		<logger level="INFO" doc:name="Logger" doc:id="37a0acb4-d01b-4a33-98c0-95f3a2ab03ee" message='#["asdf"]'/>
+		<logger level="INFO" doc:name="Logger" doc:id="c865f4b8-a587-49b1-a5d3-f1507624b3ec" message='#["Third logger"]'/>
 	</flow>
 </mule>
